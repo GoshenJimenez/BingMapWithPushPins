@@ -1,0 +1,13 @@
+﻿<Window x:Class="Goshen.Jimenez.BingMapsPointer.Windows.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+        xmlns:local="clr-namespace:Goshen.Jimenez.BingMapsPointer.Windows"        
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <m:Map Name="Map" CredentialsProvider="JwTgnovYKUmeH2FoKDEF~by-sdEpH7aMxJmCBcGRVfg~Ailm-zVO7gJP_h7yAF-3avAtfNp0ilgg7lH9yx8F1PUjpIuzTswTgVzeFH0huvr8" MouseDoubleClick="Map_MouseDoubleClick"/>
+    </Grid>
+</Window>
